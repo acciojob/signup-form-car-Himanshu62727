@@ -8,6 +8,38 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+
+	<form action="sign-up-form" method = "post">
+		<label for = name>Name:-</label>
+		<input type = "text" id = name placeholder = "Name" required><br>
+		<label for = email>Email:-</label>
+		<input type = "email" id = email placeholder = "Email" required><br>
+		<fieldset>
+		<legend>Gender:-</legend>
+		<label for = m>M</label>
+		<input type = "radio" id = m name = Gender value = m required>
+		<label for = f>F</label>
+		<input type = "radio" id = f  name = Gender value = f required><br>
+		</fieldset>
+		<label for = cars>Car Brands</label>
+		<select>
+			<option>BMW</option>
+			<option>Bugatti</option>
+			<option>Audi</option>
+			<option>Mercudes</option>
+			<option>MG</option>
+		</select>
+		<label for = age>Age</label>
+		<input type = "number" id = age placeholder = "Age" required><br>
+		<label for = dob>Date</label>
+		<input type = "date" id = dob required><br>
+		<label for = tel>Phone Number</label>
+		<input type = "tel" id = tel placeholder = "XXX-XXX-XXX"><br>
+		<label for = password>Password</label>
+		<input type = "password" id = password placeholder = "Password" required><br>
+		<label for = tos>I agree to the TOS</label>
+		<input type = "checkbox" id = tos required><br>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
