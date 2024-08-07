@@ -14,20 +14,20 @@
 		<input type = "text" id = name placeholder = "Name" required><br>
 		<label for = email>Email:-</label>
 		<input type = "email" id = email placeholder = "Email" required><br>
-		<fieldset>
+
 		<legend>Gender:-</legend>
 		<label for = m>M</label>
 		<input type = "radio" id = m name = Gender value = m required>
 		<label for = f>F</label>
 		<input type = "radio" id = f  name = Gender value = f required><br>
-		</fieldset>
 		<label for = cars>Car Brands</label>
-		<select>
-			<option>BMW</option>
-			<option>Bugatti</option>
-			<option>Audi</option>
-			<option>Mercudes</option>
-			<option>MG</option>
+		<select required>
+			<option value = "" disabled selected>Please choose an option</option>
+			<option value = "0">BMW</option>
+			<option value = "1">Bugatti</option>
+			<option value = "2">Audi</option>
+			<option value = "3">Mercudes</option>
+			<option value = "4">MG</option>
 		</select>
 		<label for = age>Age</label>
 		<input type = "number" id = age placeholder = "Age" required><br>
